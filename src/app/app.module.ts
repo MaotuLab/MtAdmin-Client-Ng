@@ -7,12 +7,14 @@ import { NgZorroAntdModule } from 'ng-zorro-antd';
 import { AppComponent } from './app.component';
 import { BaseLayout } from './layout/base.layout.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { AppRoutingModule } from './/app-routing.module'
+import { AppRoutingModule } from './/app-routing.module';
+import { ChildrenComponent } from './children/children.component';
+
 
 
 @NgModule({
   declarations: [
-    AppComponent,BaseLayout, ProjectsComponent
+    AppComponent, BaseLayout, ProjectsComponent, ChildrenComponent,
   ],
   imports: [
     BrowserModule,
