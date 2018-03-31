@@ -5,19 +5,22 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NgZorroAntdModule } from 'ng-zorro-antd';
 import { AppComponent } from './app.component';
-import { BaseLayout } from './layout/base.layout.component'
+import { BaseLayout } from './layout/base.layout.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { AppRoutingModule } from './/app-routing.module'
 
 
 @NgModule({
   declarations: [
-    AppComponent,BaseLayout
+    AppComponent,BaseLayout, ProjectsComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    NgZorroAntdModule.forRoot()
+    NgZorroAntdModule.forRoot(),
+    AppRoutingModule
   ],
   bootstrap: [AppComponent]
 })

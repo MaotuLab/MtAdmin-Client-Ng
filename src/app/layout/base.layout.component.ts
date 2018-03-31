@@ -19,7 +19,7 @@ export class BaseLayout {
     {id:1,title:'Mt Sales',imageUrl:'/assets/images/test/image6.jpg'},
 
   ]
-  ngOnInit() { 
+  public ngOnInit():void{ 
     this.isLoading = true; 
     setTimeout(()=>{
       this.projects.map(item=>{
