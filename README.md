@@ -1,6 +1,6 @@
 # MtCola
 
-A project board for Mt Team.
+A project board for Mt Team by iallai.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
 ## Development server
