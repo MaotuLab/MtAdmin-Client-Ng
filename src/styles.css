@@ -5,7 +5,10 @@ body{
 }
 
 .g-sider{
-    height:100vh
+    position: fixed;
+    bottom: 0;
+    top:0;
+    left: 0;
   }
   .mt-loading{
     text-align:center;
